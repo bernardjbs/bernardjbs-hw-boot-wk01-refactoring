@@ -1,137 +1,137 @@
-/* Universal selector */
+/* STYLE FOR UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* HTML selectors */
+/* STYLE FOR HTML SELECTORS */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* sets the background colour to #d9dcd6*/
 }
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px; /* sets a padding of 20px */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* sets the default font to  Trebuchet MS */
+    background-color: #2a607c; /* sets the background color to #2a607c */
+    color: #ffffff; /* sets the text color to white */
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /* Displays the items horizontally */
+    font-size: 48px; /* sets the font size to 48px */
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: #FCD0A1; /* sets the text color to #FCD0A1 */
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px; /* sets a top padding of 15px */
+    margin-right: 20px; /* sets a right margin of 20px */
+    float: right; /* floats to the right */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets the default font to Gill Sans */
+    font-size: 20px; /* sets the font size to 20px */
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style-type: none; /* removes the styles (bullets or numbers) from unordered list*/
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /* Displays the items horizontally */
+    margin-left: 25px; /* sets a left margin of 25px */
 }
 
 a {
-    color: #ffffff;
+    color: #ffffff; /* sets the text color to white */
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /* sets the font size to 16px */
 }
 
 footer {
-    padding: 30px;
+    padding: 30px; /* sets a padding of 30px */
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* sets the default font to  Trebuchet MS */
+    text-align: center; /* aligns the text to the center */
 }
 
 footer h2 {
-    font-size: 20px;
+    font-size: 20px; /* sets the font size to 20px */
 }
 
-/* Class selectors */
+/* STYLE FOR CLASS SELECTORS */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* sets the height to 800px*/
+    width: 100%; /* takes whole width of its container */
+    margin-bottom: 25px; /* sets a bottom margin of 25px */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* gets the image from the images folder */
+    background-size: cover; /* resize the background image to cover its container */
+    background-position: center; /* centers the background */
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* floats to the left*/ 
+    margin-right: 25px; /* sets right margin to 25px*/
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* floats to the right */
+    margin-left: 25px; /* sets left margin to 25px*/
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%; /* takes 75% width space of its container */
+    display: inline-block; /* displays horizontally */
+    margin-left: 20px; /* sets a left margin of 20px */
 }
 
 .content-item {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /*sets a bottom margin of 20px*/
+    padding: 50px; /* sets a padding of 50px */
+    height: 300px; /* sets the height to 300px */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets the default font to Gill Sans*/
+    background-color: #0072bb; /* sets the background color to #0072bb */
+    color: #ffffff; /* sets text color to white */ 
 }
 
 .content-item img {
-    max-height: 200px;
+    max-height: 200px; /* sets a maximum height of 200px */
 }
 
 .content-item h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 20px; /* sets the bottom margin to 20px */
+    font-size: 36px; /* sets the font size to 36px */
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right: 20px; /* sets right margin to 20px */ 
+    padding: 20px; /* sets padding to 20px */
+    clear: both; 
+    float: right; /* floats to the right */
+    width: 20%; /* sets the width to 20% of its container */
+    height: 100%; /* sets the height to 100% of its container */ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* sets the default font to Gill Sans*/
+    background-color: #2589bd; /* sets the background color to #2589bd */
 }
 
 .benefit-item {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /* sets a bottom margin of 32px */
+    color: #ffffff; /* sets the text color to white */
 }
 
 .benefit-item h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 10px; /* sets a bottom margin of 10px */ 
+    text-align: center; /* align the text to the center */
 }
 
 .benefit-item img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display: block; /* stack and display items vertically */
+    margin: 10px auto; /* sets top and bottom margin to 10px & left and right margin to auto*/
+    max-width: 150px; /* sets a maximum width of 150px */
 }
 
 
