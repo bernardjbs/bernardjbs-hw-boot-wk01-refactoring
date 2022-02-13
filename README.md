@@ -23,6 +23,7 @@ Replaced <div> tags with the following semantic html tags:
     - <header>
     - <nav>
     - <section>
+    - <article>
     - <footer>
 
 Id to content was missing
@@ -49,3 +50,9 @@ Removed redundant codes
 
 Added comments
 ```
+
+## The website sceen shot
+![Website Screen Shot](/assets/images/Horiseon.jpg)
+
+## Link to deployed application
+https://bernardjbs.github.io/hw-boot-wk01-refactoring/
